@@ -1,0 +1,54 @@
+﻿﻿body {
+    background-color: #e6f2ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.lead {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.page-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    background: #003366;
+}
+
+button {
+    float: right;
+    margin-right: 5px;
+}
+
+.form-control {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.editor-label {
+    font-size: 16px;
+}

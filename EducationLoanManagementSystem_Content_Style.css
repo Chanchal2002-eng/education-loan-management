@@ -1,0 +1,45 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('image/image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:350px;
+    height:420px;
+    padding:80px 40px;
+    box-sizing:border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+   
+.lblemail, .lblpass {
+    font-weight:bold;
+    color: #fff;
+}
+.txtemail, .txtpass {
+    width:100%;
+    margin-bottom:20px;
+    border:none;
+    border-bottom:3px solid #fff;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:17px;
+    background-color: transparent;
+}
+::placeholder{
+    font-size:16px;
+ 
+}
